@@ -5,7 +5,7 @@ let first = 2;
 let second = 3;
  
 test("Math add function", function(t) {
-  var result = math.add(first, second);
+  let result = math.add(first, second);
  
   t.equal(result, first + second);
   t.end();
